@@ -10,7 +10,14 @@ body {
 
 .calculator {
     position: relative;
-    
+    max-width: 300px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(55, 52, 52);
+    padding: 50px 20px 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+
     /* display: flex;
     justify-content: center;
     align-items: center;
@@ -29,12 +36,14 @@ body {
     background-color: #f9f9f9; */
 }
 
-/* #display {
-    width: 100%;
+#display {
+    position: relative;
+    max-width: 300px;
+    width: 95%;
     margin-bottom: 10px;
     padding: 5px;
     font-size: 18px;
-} */
+}
 
 .buttons {
     display: grid;
